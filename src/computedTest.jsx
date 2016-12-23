@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <input type="text" placeholder="请输入美元" value={this.props.priceApp.price}>
+        <input type="text" placeholder="请输入美元" value={this.props.currencyApp.price}>
         <input type="button" value="换算" onClick={this.change}>
         <span id="output">{this.props.priceApp}</span>
         <DevTools />
